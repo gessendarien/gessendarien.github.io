@@ -7,11 +7,6 @@
   Github Repo: https://github.com/nisarhassan12/portfolio-template/
   My Website: https://nisar.dev
 
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
 -->
 
 <!DOCTYPE html>
@@ -27,7 +22,7 @@
     Code Gallery / Gessén Darién
   </title>
 
-  <meta name="description" content="My personal work on the developer world.">
+  <meta name="description" content="My personal work on the developer world. Gessén Darién">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="gessen, darien, portfolio, portafolio, developer, code, programmer, programador, desarrollador" />
   <link rel="stylesheet" href="index.css" />
@@ -41,68 +36,77 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+          <li class="nav__item"><a href="#skills" class="nav__link">Tecnologías</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
+          <li class="nav__item"><a href="#jobs" class="nav__link">Experiencias</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Certificados</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="header__text-box row">
+
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
           <span>Gessén Darién</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Creative Developer</p>
-        <a href="#contact" class="btn btn--pink">Download CV</a>
+        <p>Desarrollador creativo</p>
+        <div id="btnCopy"><a href="#" id="mailBtn" class="btn btn-contact-top">Contactar por correo&nbsp;<img src="./images/mail-h.svg" class="img-contact-top"/></a></div>
+        <div id="mailCopy">gessendarien@gmail.com</div>
+        
+
+        <div id="btn-social-content">
+          <a href="#" class="btn btn--pink btn-social-top"><img src="./images/cv.svg" class="img-social-top"/></a>
+          <a href="#" class="btn btn--pink btn-social-top"><img src="./images/github.svg" class="img-social-top"/></a>
+          <a href="#" class="btn btn--pink btn-social-top"><img src="./images/linkedin.svg" class="img-social-top"/></a>
+        </div>
       </div>
+
+      <div class="header__profile">
+          <img src="./images/profile.jpg" class="header__profile__img "/>
+      </div>
+
+      <div class="header__about">
+        <h5>Destaco mi capacidad de adaptación, creatividad y lógica en proyectos
+              web, móvil, escritorio y bases de datos; con comunicación y asertividad con mi equipo de
+              trabajo. Siempre abierto a nuevos aprendizajes y a la consolidación de
+              mis habilidades actuales.</h5>
+      </div>
+      <div id="msgCopy">Correo copiado al portapapeles</div>
     </div>
   </header>
 
   <main role="main">
 
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Habilidades y Competencias</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Proyectos</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
+          <!-- Projects -->
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
+          <!-- Calculator -->
           <div class="work__box">
             <div class="work__text">
               <h3>Calculator</h3>
@@ -130,7 +134,8 @@
               <img src="./images/project-2.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-
+          
+          <!--Notificator -->
           <div class="work__box">
             <div class="work__text">
               <h3>Notificator</h3>
@@ -162,11 +167,24 @@
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    <!-- ***** Jobs ***** -->
 
-    <section class="client" id="clients">
+    <section class="client" id="jobs">
       <div class="row">
-        <h2>Skills</h2>
+        <h2>Experiencias</h2>
+        <div>
+          <h3>Santander - Cibergestión</h3>
+          <h1>Asesor de pruebas</h1>
+          Realizador de pruebas para Hipoteca Online para Empelados
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Education and certificates ***** -->
+
+    <section class="client" id="education">
+      <div class="row">
+        <h2>Formaciones y Certificados</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
           <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
@@ -179,26 +197,26 @@
       </div>
     </section>
 
-    <!-- ***** About ***** -->
+    <!-- ***** About *****
 
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
+            
             <p>
               Destaco mi capacidad de adaptación, creatividad y lógica en proyectos
               web y bases de datos; con comunicación y asertividad con mi equipo de
               trabajo. Siempre abierto a nuevos aprendizajes y a la consolidación de
               mis habilidades actuales.
             </p>
-            <!-- Provide a link to your resume -->
+            
             <a href="#" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
+            
             <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
           </div>
         </div>
@@ -206,7 +224,7 @@
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
+
 
   <section class="contact" id="contact">
     <div class="row">
@@ -215,36 +233,31 @@
         <p>
           Contáctame a través de mis redes o encuéntrame por otros medios descargando mi CV.
         </p>
-        <!-- Replace the email with yours -->
+        
         <a href="mailto:you@example.com" class="btn">you@example.com</a>
       </div>
     </div>
   </section>
 
+-->
+
   <!-- ***** Footer ***** -->
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
+      <!-- Update the links to point to your accounts 
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
           <a href="https://github.com/gessendarien/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/gessendarien/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
       </ul>
+      -->
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      Sigo aprendiendo: Java, Go y AWS.
+
+      <!-- Credits -->
       <p>
         &copy; 2024 - Gessén Darién - Made with 🧡 - Based in <a href="https://nisar.dev" class="link" target="_blank">Nisar</a> template.
       </p>

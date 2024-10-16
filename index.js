@@ -2,6 +2,34 @@
   Have focus outline only for keyboard users 
  ---------------------------------------- */
 
+//Copy mail clipboard
+const myMail = document.getElementById('mailCopy').innerText;
+const copyBtn = document.getElementById('btnCopy');
+const messageDone = document.getElementById('msgCopy');
+const chgeText = document.getElementById('mailBtn');
+
+copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(myMail).then(() => {
+        chgeText.textContent = 'gessendarien@gmail.com';
+        showMsg();
+    }).catch(err => {
+        console.error('Error al copiar el texto: ', err);
+    });
+});
+
+function showMsg() {
+  messageDone.style.display = 'block';
+  messageDone.style.opacity = 1;
+    setTimeout(() => {
+      messageDone.style.opacity = 0;
+        setTimeout(() => {
+          messageDone.style.display = 'none';
+        }, 500);
+    }, 2000);
+}
+
+
+
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
@@ -41,3 +69,5 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+
