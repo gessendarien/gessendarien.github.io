@@ -1,5 +1,5 @@
 # Portfolio
 
-### My Portfolio is to my project :).
+### My portfolio is also my project :).
 
-Hello wordl!
+Hello world!
