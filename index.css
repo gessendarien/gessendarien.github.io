@@ -474,6 +474,7 @@ body:not(.user-is-tabbing) a:focus {
     display: none;
 }
 
+
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
@@ -544,18 +545,39 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
-/* ----- Clients ----- */
+/* ----- Skills Cont ----- */
 /* --------------------------------------- */
 
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    filter: invert(5%) grayscale(10%) opacity(2);
+}
+
+.certificates__logos {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    filter: invert(5%) grayscale(10%) opacity(2);
+}
+.certificates__logos img {
+    margin-right: 55px;
+    display: block;
 }
 
 .client__logo {
     height: 6.5rem;
     max-width: 18rem;
+}
+
+.skill-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.certificates-icon {
+    width: 150px;
+    height: 150px;
 }
 
 @media(max-width: 1240px) {
@@ -673,6 +695,9 @@ body:not(.user-is-tabbing) a:focus {
     width: 50px;
     height: 62px;
     padding: 5px;
+}
+.btn-social-top:hover {
+    filter: invert(100%) grayscale(100%) opacity(1);
 }
 
 .img-social-top {
