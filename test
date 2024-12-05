@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginación de Divs</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 80%;
+    }
+
+    .item {
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      display: none; /* Los divs están ocultos por defecto */
+    }
+
+    /* Añadir bordes de diferentes colores */
+    .item:nth-child(1) { border: 2px solid red; }
+    .item:nth-child(2) { border: 2px solid green; }
+    .item:nth-child(3) { border: 2px solid blue; }
+    .item:nth-child(4) { border: 2px solid orange; }
+    .item:nth-child(5) { border: 2px solid purple; }
+    .item:nth-child(6) { border: 2px solid pink; }
+    .item:nth-child(7) { border: 2px solid yellow; }
+    .item:nth-child(8) { border: 2px solid brown; }
+    .item:nth-child(9) { border: 2px solid cyan; }
+    .item:nth-child(10) { border: 2px solid magenta; }
+    .item:nth-child(11) { border: 2px solid lime; }
+    .item:nth-child(12) { border: 2px solid gray; }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="item">Div 1</div>
+    <div class="item">Div 2</div>
+    <div class="item">Div 3</div>
+    <div class="item">Div 4</div>
+    <div class="item">Div 5</div>
+    <div class="item">Div 6</div>
+    <div class="item">Div 7</div>
+    <div class="item">Div 8</div>
+    <div class="item">Div 9</div>
+    <div class="item">Div 10</div>
+    <div class="item">Div 11</div>
+    <div class="item">Div 12</div>
+  </div>
+
+  <button id="loadMore">Mostrar más</button>
+
+  <script>
+    // Variables
+    let currentIndex = 0; // Contador de los divs mostrados
+    const items = document.querySelectorAll('.item'); // Todos los divs
+    const loadMoreButton = document.getElementById('loadMore'); // El botón "Mostrar más"
+
+    // Función para mostrar los siguientes 3 divs
+    function loadMore() {
+      // Mostrar los próximos 3 divs
+      for (let i = currentIndex; i < currentIndex + 3 && i < items.length; i++) {
+        items[i].style.display = 'block'; // Hacer visibles los divs
+      }
+
+      // Incrementar el índice para la próxima vez que se haga clic
+      currentIndex += 3;
+
+      // Si ya se han mostrado todos los divs, ocultar el botón
+      if (currentIndex >= items.length) {
+        loadMoreButton.style.display = 'none';
+      }
+    }
+
+    // Mostrar los primeros 3 divs al cargar la página
+    loadMore();
+
+    // Agregar evento de clic al botón "Mostrar más"
+    loadMoreButton.addEventListener('click', loadMore);
+  </script>
+
+</body>
+</html>
+

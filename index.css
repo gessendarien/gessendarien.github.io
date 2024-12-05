@@ -222,6 +222,7 @@ body:not(.user-is-tabbing) a:focus {
     border: 1px solid  var(--pink);
     font-weight: 400;
     max-width: 320px;
+    border-radius: 5px;
 }
 
 .btn:focus {
@@ -245,6 +246,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn:focus::after {
     right: 0;
     background: var(--pink);
+    border-radius: 5px;
 }
 
 .btn--pink {
@@ -403,6 +405,11 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- Header ----- */
 /* --------------------------------------- */
+.header__all__container {
+    display: flex;
+  flex-direction: column; /* Alineación vertical */
+  gap: 20px; /* Espacio entre los divs */
+}
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
@@ -413,7 +420,9 @@ body:not(.user-is-tabbing) a:focus {
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
-
+.header__name {
+    margin-top: 100px;
+}
 .header__text {
     position: absolute;
     top: 25%;
@@ -431,13 +440,9 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 30px;
 }
 .header__about {
-    position: absolute;
-    min-width: 30%;
-    height: 15%;
-    top: 52%;
-    left: 45%;
     text-align: justify;
-    transform: translateY(-50%);
+    width: 500px;
+    margin-top: 15px;
 }
 /* Pantallas chicas */
 @media(max-width: 800px) {
@@ -599,8 +604,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .skill-icon {
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
 }
 
 .certificates-icon {
@@ -709,10 +714,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn-contact-top {
-    margin-right: 10px;
-    padding-right: 75px;
+    margin-right: 20px;
+    padding-right: 55px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 12px;
+    border-radius: 5px;
 }
 
 .skills {
@@ -732,12 +739,23 @@ body:not(.user-is-tabbing) a:focus {
     width: 100%;
     height: 100%;
 }
+#buttons__container {
+    display: flex;  /* Activa Flexbox */
+    flex-wrap: wrap;
+    width: 680px;
+
+}
 #btn-social-content {
-    margin-top: 20px;
-    margin-left: 80px;
+    /*margin-top: 20px;
+    margin-left: 80px; */
+    flex: 1;
+    width: 48%;
 }
 #btnCopy {
-    max-width: 332px;
+   flex: 1;
+   width: 48%;
+   max-height: 25px;
+   border-radius: 5px;
 }
 
 @media (max-width: 1000px) {
