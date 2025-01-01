@@ -34,7 +34,7 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
+    --black: #360b23;
     --pink: #13a9d6; /*--pink: #ff3258;*/
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -417,6 +417,7 @@ body:not(.user-is-tabbing) a:focus {
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
+
 .header__name {
     margin-top: 200px;
 }
@@ -426,21 +427,40 @@ body:not(.user-is-tabbing) a:focus {
     left: 45%;
     transform: translateY(-50%);
 }
-@media(max-width: 500px) {
-    .header__text {
-    top: 200px;
-    left: 10px
 
+/*Cuando llega a esa resolución, 
+centra todo el texto de cabecera en una columna*/
+@media(max-width: 750px) {
+    .header__text {
+    top: 300px;
+    left: 5%
+    }
+    .header__about {
+        padding-top: 10px;
+        padding-right: 3%;
     }
 }
     
-}
 .header__profile {
-    border-radius: 12px;
-
+    border-radius: 10px;
 }
-
-@media (min-width: 500px) {
+/*FOTO DE PERFIL -- Phone
+Cuando llega a dicha resolución,
+la imagen se reduce y sube a top*/
+@media (max-width: 750px) {
+    .header__profile {
+        position: absolute;
+        top: 5px;
+        left: 30%;
+        width: 160px;
+        height: auto;
+        border-radius: 2px;
+    }
+}
+/*FOTO DE PERFIL -- No phone
+Cuando llega a dicha resolución,
+la imagen se reduce y sube a top*/
+@media (min-width: 750px) {
     .header__profile {
         position: relative;
         top: 30px;
@@ -450,19 +470,11 @@ body:not(.user-is-tabbing) a:focus {
 
     }
 }
+/*RESPONSIVE CELLPHONE CONFIG*/
 
-@media (max-width: 500px) {
-    .header__profile {
-        position: absolute;
-        top: 20px;
-        left: 180px;
-        width: 20%;
-        height: 30%;
-    }
-}
 
 .header__profile__img {
-    border-radius: 60px;
+    border-radius: 50px;
     margin-top: 30px;
 }
 .header__about {
@@ -481,15 +493,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row;
 }
-@media(max-width: 500px) {
-    .header__all__container{
-       flex-direction: column; /* Cambiar a columna */
-       align-items: center;
-    }
-    
 
-    
-}
 
 #msgCopy {
     display: none;
@@ -636,7 +640,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 750px) {
     .about__content {
         flex-direction: column-reverse;
         align-items: initial;
@@ -746,32 +750,48 @@ body:not(.user-is-tabbing) a:focus {
     flex-wrap: wrap;
     width: 680px;
 }
-@media(max-width: 1000px) {
+
+/*CAMABIA CONTENIDO TOP
+Cuando llega a esta resolución, los botones de social y el texto de about,
+se redimencionan*/
+@media(max-width: 950px) {
     .btn-social-content {
         flex: 1;
         width: 10%;
         position: absolute;
-        left: 35%;
-        top: 91%
+        left: 30%;
+        top: 88%
     }
     .header__about {
         position: absolute;
         top: 110%;
         left: 0%;
         width: 60%;
+        padding-top: 20px;
+    }
+    .header__name {
+        margin-top: 50px;
     }
 }
 .btn-social-content {
-    /*margin-top: 20px;
-    margin-left: 80px; */
+    /*margin-top: 20px;*/
     flex: 1;
     width: 48%;
 }
 #btnCopy {
    flex: 1;
-   width: 48%;
+   width: fit-content;
    max-height: 25px;
    border-radius: 5px;
 }
 
+.change__class__clicked {
+        margin-right: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 7px;
+        padding-bottom: 6px;
+        border-radius: 5px;
+}
 

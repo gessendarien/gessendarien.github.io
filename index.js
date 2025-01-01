@@ -7,15 +7,8 @@ const myMail = document.getElementById('mailCopy').innerText;
 const copyBtn = document.getElementById('btnCopy');
 const messageDone = document.getElementById('msgCopy');
 const chgeText = document.getElementById('mailBtn');
+let change_click = false;
 
-copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(myMail).then(() => {
-        chgeText.textContent = 'gessendarien@gmail.com';
-        showMsg();
-    }).catch(err => {
-        console.error('Error al copiar el texto: ', err);
-    });
-});
 
 function showMsg() {
   messageDone.style.display = 'block';
@@ -28,7 +21,25 @@ function showMsg() {
     }, 2000);
 }
 
+copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(myMail).then(() => {
+        chgeText.textContent = 'gessendarien@gmail.com';
+        showMsg();
+    }).catch(err => {
+        console.error('Error al copiar el texto: ', err);
+    });
+});
 
+
+
+
+
+document.getElementById('mailBtn').addEventListener('click', function() {
+  if (!change_click) {
+    this.classList.add('change__class__clicked');
+    change_click = true;
+  }
+});
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
