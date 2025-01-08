@@ -34,7 +34,7 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #360b23;
+    --black: #1c1b36; /*#360b23;*/
     --pink: #13a9d6; /*--pink: #ff3258;*/
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -595,8 +595,7 @@ la imagen se reduce y sube a top*/
 
 .certificates__logos {
     display: flex;
-    position: relative;
-    display: inline-block;
+    justify-content:left;
     filter: invert(5%) grayscale(10%) opacity(2);
 }
 .certificates__logos img {
@@ -615,8 +614,9 @@ la imagen se reduce y sube a top*/
 }
 
 .certificates-icon {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin-right: 45px;
 }
 
 @media(max-width: 1240px) {
