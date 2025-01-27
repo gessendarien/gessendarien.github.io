@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #1c1b36; /*#360b23;*/
-    --pink: #13a9d6; /*--pink: #ff3258;*/
+    --pink: #13a9d6; /*--pink: #ff3258; #13a9d6*/
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -409,9 +409,9 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    background: linear-gradient(rgba(191, 197, 197, 0.389), rgba(56, 53, 57, 0.59)), 
         url('./images/header.jpg');
-    height: 70vh;
+    height: 70vh; /*Altura de la imagen respecto a pantalla*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -426,6 +426,10 @@ body:not(.user-is-tabbing) a:focus {
     top: 25%;
     left: 45%;
     transform: translateY(-50%);
+}
+
+.header__about {
+    color: rgb(255, 255, 255);
 }
 
 /*Cuando llega a esa resolución, 
@@ -764,13 +768,22 @@ se redimencionan*/
     }
     .header__about {
         position: absolute;
-        top: 110%;
+        top: 150%;
         left: 0%;
-        width: 60%;
+        width: 53%;
+        height: 200px;
         padding-top: 20px;
     }
     .header__name {
         margin-top: 50px;
+    }
+    .header {
+        height: 80vh;
+    }
+    .btn-social-content {
+        top: 120%;
+        left: 0px;
+
     }
 }
 .btn-social-content {
