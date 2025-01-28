@@ -409,7 +409,7 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .header {
-    background: linear-gradient(rgba(191, 197, 197, 0.389), rgba(56, 53, 57, 0.59)), 
+    background: linear-gradient(rgba(25, 26, 26, 0.63), rgba(39, 38, 39, 0.619)), 
         url('./images/header.jpg');
     height: 70vh; /*Altura de la imagen respecto a pantalla*/
     background-size: cover;
