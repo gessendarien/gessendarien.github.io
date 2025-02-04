@@ -483,7 +483,7 @@ la imagen se reduce y sube a top*/
 }
 .header__about {
     text-align: justify;
-    width: 500px;
+    width: 600px;
     margin-top: 15px;
 }
 
@@ -498,11 +498,11 @@ la imagen se reduce y sube a top*/
     flex-direction: row;
 }
 
-
+/*Mensaje cuando se copia el correo al portapapeles*/
 #msgCopy {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 90vh;
     left: 50%;
     transform: translateX(-50%);
     background-color: #0c56e0;
@@ -808,3 +808,53 @@ se redimencionan*/
         border-radius: 5px;
 }
 
+
+/*Tooltips
+ /* Tooltip container
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
+  }
+  
+  /* Tooltip text 
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #105d24;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 15px;
+  
+    /* Position the tooltip text 
+    position: absolute;
+    z-index: 1;
+    bottom: 118%;
+    left: 50%;
+    margin-left: -130px;
+  
+    /* Fade in tooltip 
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow 
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #16584d transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container 
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  } 
+  */
