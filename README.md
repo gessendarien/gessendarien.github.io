@@ -1,7 +1,7 @@
 # Portafolio de Gessén Darién
 
 ¡Bienvenido/a!  
-Este es mi portafolio personal, donde comparto proyectos, habilidades y experiencias en desarrollo y tecnología.
+Este es mi portafolio, donde comparto proyectos, habilidades y experiencias en desarrollo y tecnología.
 
 > Este sitio es una adaptación de [ReactPortfolioTemplate](https://github.com/paytonjewell/ReactPortfolioTemplate)
 
