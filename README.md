@@ -1,4 +1,19 @@
-Este es mi protafolio.
+# Portafolio de Gessén Darién
 
-Recordatorio:
->Para realizar cambios en proyectos o cualquier información, sólo se debe modificar el archivo info.js dentro de /info
+¡Bienvenido/a!  
+Este es mi portafolio personal, donde comparto proyectos, habilidades y experiencias en desarrollo y tecnología.
+
+> Este sitio es una adaptación de [ReactPortfolioTemplate](https://github.com/paytonjewell/ReactPortfolioTemplate)
+
+## Sobre mí
+
+Desarrollador apasionado por la creación de soluciones innovadoras. Aquí encontrarás ejemplos de mi trabajo, tecnologías que domino y formas de contactarme.
+
+## Tecnologías
+
+- HTML, CSS, JavaScript
+- React, Node.js
+- Express, Django
+- Otras herramientas relevantes
+
+---
