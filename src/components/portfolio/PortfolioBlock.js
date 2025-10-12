@@ -139,7 +139,7 @@ const prevImage = () => {
                                 // Extracción robusta del videoId de YouTube
                                 const url = currentGalleryItem.url;
                                 let videoId = null;
-                                const regExp = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([\w-]{11})/;
+                                const regExp = /(?:youtube\.com\/(?:[^/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([\w-]{11})/;
                                 const match = url.match(regExp);
                                 if (match && match[1]) {
                                     videoId = match[1];
