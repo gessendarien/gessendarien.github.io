@@ -8,6 +8,7 @@ import project5 from "../img/Projects/Project5/cover.png";
 
 
 
+
 import p1_img1 from "../img/Projects/Project1/1.jpg";
 import p1_img2 from "../img/Projects/Project1/2.jpg";
 import p1_img3 from "../img/Projects/Project1/3.jpg";
@@ -35,10 +36,6 @@ import p4_img2 from "../img/Projects/Project4/2.jpg";
 
 import p5_img1 from "../img/Projects/Project5/1.jpg";
 import p5_img2 from "../img/Projects/Project5/2.jpg";
-
-
-
-
 
 
 import cvFile from "./Gessén-Darién-CV.pdf";
