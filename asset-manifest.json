@@ -1,6 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/static/css/main.70885e93.css",
     "main.js": "/static/js/main.6b1419b1.js",
     "static/media/cover.jpg": "/static/media/cover.2e366ddcef4562d97e97.jpg",
@@ -15,30 +14,5 @@
   "entrypoints": [
     "static/css/main.70885e93.css",
     "static/js/main.6b1419b1.js"
-=======
-    "main.css": "/static/css/main.95fa0a24.css",
-    "main.js": "/static/js/main.7160e116.js",
-    "static/media/1.gif": "/static/media/1.1077d8eb2f8e1bbe1624.gif",
-    "static/media/cover.jpg": "/static/media/cover.8bb5d94c00ca7995c92f.jpg",
-    "static/media/cover.png": "/static/media/cover.ab6252eb547896128606.png",
-    "static/media/1.jpg": "/static/media/1.6e09cefc5482e74c0ea2.jpg",
-    "static/media/2.jpg": "/static/media/2.9ddef62018420b08ea1e.jpg",
-    "static/media/8.jpg": "/static/media/8.b287904e9ed0d3cb3990.jpg",
-    "static/media/self.png": "/static/media/self.52f7c8a7a39715615825.png",
-    "static/media/6.jpg": "/static/media/6.f1cd937f7def7d9341fe.jpg",
-    "static/media/7.jpg": "/static/media/7.94c459ad5952ec097725.jpg",
-    "static/media/3.jpg": "/static/media/3.d396fd6c6135655339a0.jpg",
-    "static/media/5.jpg": "/static/media/5.6a83cb9d375a7fd6e13e.jpg",
-    "static/media/4.jpg": "/static/media/4.8b35e50d9cdca3b3bcf3.jpg",
-    "static/media/Gessén-Darién-CV.pdf": "/static/media/Gessén-Darién-CV.252088477d398bdc247c.pdf",
-    "static/media/Charter Regular.otf": "/static/media/Charter Regular.bd7839ef6727789d3480.otf",
-    "index.html": "/index.html",
-    "main.95fa0a24.css.map": "/static/css/main.95fa0a24.css.map",
-    "main.7160e116.js.map": "/static/js/main.7160e116.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.95fa0a24.css",
-    "static/js/main.7160e116.js"
->>>>>>> 567206ff1af97da473e71347cca6321b054aa33f
   ]
 }
