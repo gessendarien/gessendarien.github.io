@@ -46,14 +46,14 @@ export let singlePage = false;
 
 export const info = {
     firstName: "Gessén",
-    position: "Desarrollador Fullstack",
+    position: "Desarrollador Frontend",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
         {
             emoji: "💻",
-            text: "Project Manager and Product Designer",
+            text: "Tech Lead and Product Designer",
             link: ""
         },
         {
@@ -92,14 +92,10 @@ export const info = {
     bio: "Profesional con +5 años de experiencia en desarrollo web y +3 años como UX/UI Product Designer. Implementando soluciones innovadoras en equipo para alcanzar objetivos estratégicos. Hábil en la coordinación de múltiples proyectos, garantizando cumplimiento de plazos, calidad y rentabilidad de acuerdo a estándares y requerimientos del cliente.",
     skills: {
         proficientWith: ['•React', '•React Native', '•Express', '•TypeScript', '•Python', '•Git', '•Github', '•SQL'],
-        exposedTo: ['•Django', '•PHP','•Docker', '•Agile', '•Scrum'],
+        exposedTo: ['•Django', '•PHP','•Docker', '•Firebase', '•Agile', '•Scrum'],
         lenguages: ['•Español nativo', '•Inglés B2']
     },
     education: [
-        {
-            name: "Ingeniería en Software - UVEG",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/UVEG_Logo.jpg"
-        },
         {
             name: "Diplomado en Transformación Digital en los Negocios y las Organizaciones - UNAM",
             icon: "https://www.unam.mx/sites/default/files/images/unam.svg"
@@ -120,9 +116,9 @@ export const info = {
     hobbies: 
         {
             info: `Me gusta todo lo relacionado a tecnología, videojuegos y programación. 
-            Soy nostálgico de una era no vivida, los años 80's; cine, animación y juguetes son mis favoritos.
-            Quiero conocer muchos países y comida del mundo.
-            Busco seguir en el camino de la programación, superarme profesional y personalmente.
+            Me gusta viajar y hacer video resúmenes de mis viajes.
+            Me encantan las películas de fantasía de los 80's y en general lo vintage; creo que por eso también me gusta tanto Stranger Things.
+            Tengo varios gatos, les quiero un montón.
             `
         },
     portfolio: [
