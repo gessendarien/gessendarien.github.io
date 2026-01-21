@@ -7,11 +7,4 @@ Este es mi portafolio, donde comparto proyectos, habilidades y experiencias en d
 
 ## Sobre mí
 
-Desarrollador apasionado por la creación de soluciones innovadoras. Aquí encontrarás ejemplos de mi trabajo, tecnologías que domino y formas de contactarme.
-
-## Tecnologías
-
-- HTML, CSS, JavaScript
-- React, Node.js
-- Express, Django
-- Otras herramientas relevantes
+Desarrollador apasionado por la creación de soluciones innovadoras. Aquí encontrarás ejemplos de mi trabajo, tecnologías que conozco y medio contacto.
