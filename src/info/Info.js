@@ -3,8 +3,8 @@ import self from "../img/self.png";
 import project1 from "../img/Projects/Project1/cover.jpg";
 import project2 from "../img/Projects/Project2/cover.jpg";
 import project3 from "../img/Projects/Project3/cover.jpg";
-import project4 from "../img/Projects/Project4/cover.png";
-import project5 from "../img/Projects/Project5/cover.png";
+
+import project5 from "../img/Projects/Project5/cover.jpg";
 
 
 
@@ -20,19 +20,9 @@ import p1_img8 from "../img/Projects/Project1/8.jpg";
 
 import p2_img1 from "../img/Projects/Project2/1.jpg";
 import p2_img2 from "../img/Projects/Project2/2.jpg";
-import p2_img3 from "../img/Projects/Project2/3.jpg";
-import p2_img4 from "../img/Projects/Project2/4.jpg";
-import p2_img5 from "../img/Projects/Project2/5.jpg";
-import p2_img6 from "../img/Projects/Project2/6.jpg";
-import p2_img7 from "../img/Projects/Project2/7.jpg";
 
 import p3_img1 from "../img/Projects/Project3/1.jpg";
 import p3_img2 from "../img/Projects/Project3/2.jpg";
-import p3_img3 from "../img/Projects/Project3/3.jpg";
-import p3_img4 from "../img/Projects/Project3/4.jpg";
-
-import p4_img1 from "../img/Projects/Project4/1.gif";
-import p4_img2 from "../img/Projects/Project4/2.jpg";
 
 import p5_img1 from "../img/Projects/Project5/1.jpg";
 import p5_img2 from "../img/Projects/Project5/2.jpg";
@@ -61,11 +51,11 @@ export const info = {
             text: 'Transformación digital',
             link: ""
         },
-        {
+        /*{
             emoji: "📞",
-            text: "55 6084 3465",
-            link: "tel:+525560843465"
-        },
+            text: "",
+            link: "tel:+52"
+        },*/
         {
             emoji: "📧",
             text: "gessendarien@gmail.com",
@@ -92,7 +82,7 @@ export const info = {
     bio: "Profesional con +5 años de experiencia en desarrollo web y +3 años como UX/UI Product Designer. Implementando soluciones innovadoras en equipo para alcanzar objetivos estratégicos. Hábil en la coordinación de múltiples proyectos, garantizando cumplimiento de plazos, calidad y rentabilidad de acuerdo a estándares y requerimientos del cliente.",
     skills: {
         proficientWith: ['•React', '•React Native', '•Express', '•TypeScript', '•Python', '•Git', '•Github', '•SQL'],
-        exposedTo: ['•Django', '•PHP','•Docker', '•Firebase', '•Agile', '•Scrum'],
+        exposedTo: ['•Django', '•PHP', '•Docker', '•Firebase', '•Agile', '•Scrum'],
         lenguages: ['•Español nativo', '•Inglés B2']
     },
     education: [
@@ -113,20 +103,20 @@ export const info = {
             icon: "https://www.aluracursos.com/assets/api/programas/oracle-one.svg"
         }
     ],
-    hobbies: 
-        {
-            info: `Me gusta todo lo relacionado a tecnología, videojuegos y programación. 
+    hobbies:
+    {
+        info: `Me gusta todo lo relacionado a tecnología, videojuegos y programación. 
             Me gusta viajar y hacer video resúmenes de mis viajes.
             Me encantan las películas de fantasía de los 80's y en general lo vintage; creo que por eso también me gusta tanto Stranger Things.
             Tengo varios gatos, les quiero un montón.
             `
-        },
+    },
     portfolio: [
         {
             title: "Museo MIDE",
             live: "",
             source: "",
-            description: 
+            description:
                 `
                 Desarrollé la aplicación interactiva <b>"Diálogos con el tiempo"</b> para el Museo Interactivo de Economía (MIDE) de la Ciudad de México.
 
@@ -149,61 +139,70 @@ export const info = {
                 { type: "image", url: p1_img7 },
                 { type: "image", url: p1_img8 }
 
-                
+
             ]
         },
         {
-            title: "Trivia en tiempo real",
+            title: "Petra Clipboard for Linux",
             live: "",
-            source: "",
-            description: 
+            source: "https://github.com/gessendarien/petra-clipboard",
+            description:
                 `
-                Desarrollé un sitio de trivias en tiempo real (aún no en producción). El sistema funciona mediante Vanilla web (nativo), PHP y MySQL, para la creación de eventos, creación de preguntas e importanción mediante CSV.
-                Además como microservicio el juego de preguntas se inicializa mediante un código QR en tiempo real mostrándose en tres vistas distintas; el pandel del anfitrion desde donde se puede iniciar y cambiar la configuración de las preguntas en cualquier momento, la vista de proyección si el usuario requiere mostrarlas en alguna pantalla, y la vista de teléfono y tablets desde donde el concursante va respondiendo las preguntas.
-                Para este microservicio en coparación con el sitio gateway se utilizó Node, Express y Sockets para las preguntas en tiempo real.
-                 `,
-            stacks: ['PHP', 'MySQL', 'Javascript', 'Express', 'Socket.io'],
+                Desarrollé un clipboard manager (gestor de portapapeles) para distribuciones del sistema operativo GNU/Linux.
+                Soporta Wayland y X11, permitiendo funcionar en sistemas operativos derivados de Debian como Ubuntu y Linux Mint, entre otros.
+                Aunque existen opciones de clipboard para Linux, incluso con interfaces gráficas amigables con el usuario final, Petra Clipboard es una opción que agrega funcionalidades que no se encontraban en otras alternativas, sin dejar de lado la experiencia de usuario y la interfaz, lo cual lo vuelve una herramienta útil, cómoda y fácil de usar para todo tipo de usuario en sistemas operativos Linux.
+                Este programa nace de la necesidad de migrar de sistemas comerciales hacia el software libre sin dejar atrás herramientas que se volvieron indispensables para mí, por lo que evolucionó de un software personal hacia un desarrollo para compartirlo con todo aquel al que le pueda ser útil, bajo la filosofía open source.
+                                `,
+            stacks: ['Python'],
             image: project2,
             gallery: [
                 { type: "image", url: p2_img1 },
-                { type: "image", url: p2_img2 },
-                { type: "image", url: p2_img3 },
-                { type: "image", url: p2_img4 },
-                { type: "image", url: p2_img5 },
-                { type: "image", url: p2_img6 },
-                { type: "image", url: p2_img7 }
+                { type: "image", url: p2_img2 }
             ]
         },
         {
-            title: "EnigmaRooms",
-            live: "http://www.enigmarooms.net",
-            source: "",
-            description: 
+            title: "RetroPixel GIMP Plugin",
+            live: "",
+            source: "https://github.com/gessendarien/retropixel",
+            description:
                 `
-                Mejoré el sistema y experiencia UX/UI del sitio EnigmaRooms, que es una atracción de tipo Escape Room (o “sala de escape”), un juego en vivo donde un grupo de personas entra a una habitación temática y debe resolver acertijos, encontrar pistas y desbloquear mecanismos para poder salir antes de que se acabe el tiempo.
-
-                Rediseñé y desarrollé la interfaz del sistema interno de estadísticas de ventas y utilidades de la empresa, usando librerías existentes como Chart.js pero también escribiendo la librería ahora open source Chartmander.js mostrada también aquí en mis proyectos.
-
-                También tuve participación en la edición de diferentes páginas dentro del sitio en la modificación y adaptación de imágenes, estilos y valores en las diferentes experiencias de las distintas ciudades.
-
+                Desarrollé un plugin para GIMP que permite convertir imágenes en texturas para objetos 3D tipo juegos de PS1 y N64.
+                Este Plugin sólo funciona para la versión de GIMP 3 o superior y puede ser agregada a cualqueir sistema operativo que soporte el programa de manipulación de imágenes.
                 `,
-            stacks: ['Javascript', 'CSS', 'MySQL', 'Chartmander.js'],
+            stacks: ['Scheme'],
             image: project3,
             gallery: [
                 { type: "image", url: p3_img1 },
-                { type: "image", url: p3_img2 },
-                { type: "image", url: p3_img3 },
-                { type: "image", url: p3_img4 }
+                { type: "image", url: p3_img2 }
+            ]
+        },
+        /*{
+            title: "PDFortuna - Lector de PDF privado para Android",
+            live: "",
+            source: "",
+            description:
+                `
+                Esta app para Android es un lector de PDF, pero con una distinción única que fue la razón por la que se desarrolló: la privacidad.
+                Existen muchos y completos lectores de PDF para teléfonos Android, pero son pocos los que realmente pueden garantizar la privacidad del usuario al otorgar permisos absolutos a todos los archivos del teléfono.
+                PDFortuna garantiza que el acceso a tus archivos es solamente con el fin de mostrar todos los documentos esparcidos en tu teléfono en un mismo espacio para poder verlos, compartirlos, cambiarles el nombre o eliminarlos.
+                No se recopila información ni se envía ningún dato a ningún servidor; solo muestra publicidad no invasiva a cambio.
+                Puede parecer un lector más, e incluso con menos funciones, pero entre demasiadas opciones con demasiadas herramientas y sumado a la incertidumbre sobre el uso de tus archivos, esta app destaca sobre las demás.
+                                `,
+            stacks: ['Typescript', 'React Native', 'Expo'],
+            image: project4,
+            gallery: [
+                { type: "image", url: p4_img1 },
+                { type: "image", url: p4_img2 }
 
 
                 // { type: "video", url: "https://www.youtube.com/watch?v=yuTMWgOduFM" }
             ]
-        },
-                {
+        },*/
+        {
             title: "Cascabel Launcher Games",
             live: "",
             source: "https://github.com/gessendarien/cascabel-launcher",
-            description: 
+            description:
                 `
                 Cascabel Launcher es un lanzador de juegos multiplataforma para Windows y Linux que desarrollé con el objetivo de centralizar y organizar emuladores de forma elegante y funcional. Permite gestionar múltiples consolas desde una interfaz con pestañas, configurar rutas de ejecutables, juegos y carátulas, además de ofrecer opciones de personalización como temas, música de fondo y ordenamiento por popularidad o alfabeto.
 
@@ -215,26 +214,6 @@ export const info = {
             gallery: [
                 { type: "image", url: p5_img1 },
                 { type: "image", url: p5_img2 }
-            ]
-        },
-        {
-            title: "Chartmander.js",
-            live: "",
-            source: "",
-            description: 
-                `
-                Desarrollé una bibliotecas en JS que permite crear gráficas verticalmente, además de mostrar porcentajes y valor total; acompañado de una animación al cargar.
-                Fue escrita originalmente para las gráficas internas del sitio EnigmaRooms pero avanzó siendo adaptada para ser open source y de uso libre dada su sencilléz de configuración y su formato vertical no tan distribuído en otras bibliotecas.
-
-                `,
-            stacks: ['Javascript', 'CSS'],
-            image: project4,
-            gallery: [
-                { type: "image", url: p4_img1 },
-                { type: "image", url: p4_img2 }
-
-
-                // { type: "video", url: "https://www.youtube.com/watch?v=yuTMWgOduFM" }
             ]
         }
     ]

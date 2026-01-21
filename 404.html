@@ -2,52 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <base href="/">
-    <meta name="description" content="developer portfolio" />
-    <meta name="keyword" content="portfolio, javascript, developer, frontend, react, dev, front-end, tech, programmer">
-    <title>404 - Página no encontrada | Gessén Darién</title>
-    <style>
-      body {
-        background: linear-gradient(135deg, #a664ff 0%, #00ffa4 100%);
-        color: #fff;
-        font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-      }
-      h1 {
-        font-size: 5rem;
-        margin-bottom: 0.5rem;
-      }
-      p {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-      }
-      a {
-        color: #fff;
-        background: rgba(0,0,0,0.2);
-        padding: 0.5rem 1.5rem;
-        border-radius: 2rem;
-        text-decoration: none;
-        font-weight: bold;
-        transition: background 0.2s;
-      }
-      a:hover {
-        background: rgba(0,0,0,0.4);
-      }
-    </style>
+    <title>Redirigiendo... | Gessén Darién</title>
+    <script>
+      // Single Page Apps for GitHub Pages
+      // MIT License - https://github.com/rafgraph/spa-github-pages
+      // Este script toma la ruta actual y la convierte en un parámetro de query
+      // para que index.html pueda restaurarla usando la History API
+      var pathSegmentsToKeep = 0; // Para el root del dominio (gessendarien.github.io)
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
   </head>
   <body>
-    <h1>404</h1>
-    <p>Alto ahí viajero en el tiempo<br>Parece que ésta página aún no existe en la línea de tiempo de donde vienes.</p>
-    <p>Quizás cuando vuelvas al futuro</p>
-    <a href="/">Ir al inicio</a>
-    <div id="root" style="display:none;"></div>
   </body>
 </html>
