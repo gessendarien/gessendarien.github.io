@@ -118,14 +118,14 @@ export const info = {
             source: "",
             description:
                 `
-                Desarrollé la aplicación interactiva <b>"Diálogos con el tiempo"</b> para el Museo Interactivo de Economía (MIDE) de la Ciudad de México.
+                Desarrollé la aplicación <b>"Diálogos con el tiempo"</b> para el Museo Interactivo de Economía (MIDE) de la Ciudad de México.
 
-                La aplicación esta creada como un sitio web en modo portrait donde todas las animaciones fueron hechas con CSS y JS <i>vanilla</i>. Se muestra dentro del museo como un 'totem' donde los visitantes graban un mensaje dirigido a ellos mismo en un futuro, buscando generar conciencia sobre la importancia del ahorro y las buenas finanzas.
-                
-                El video utiliza un filtro con la <i>API</i> de Snapchat y TypeScript para simular vejéz en el usuario que graba su mensaje, agregando stickers al video para ser enviado a su correo electrónico.
-                El usuario también tiene la posibilidad de permitir compartir el video en una pantalla principal que hace de mural con todos los usuarios que han grabado en la aplicación.
-                
-                Actualmente se encuentra funcionando en el museo, teniendo pendiente de lanzarlo en versión web y dispositivos móviles abierto a todo el público.
+                La aplicación está creada como un sitio web en modo <i>portrait</i>, donde todas las animaciones fueron hechas con CSS y JS <i>vanilla</i>. Se muestra dentro del museo como un “tótem”, donde los visitantes graban un mensaje dirigido a ellos mismos en el futuro, buscando generar conciencia sobre la importancia del ahorro y las buenas finanzas.
+
+                El video utiliza un filtro con la <i>API</i> de Snapchat y TypeScript para simular vejez en el usuario que graba su mensaje, agregando stickers al video para ser enviado a su correo electrónico.
+                El usuario también tiene la posibilidad de permitir compartir el video en una pantalla principal que funciona como un mural con todos quienes se hayan grabado en la aplicación.
+
+                Actualmente se encuentra funcionando en el museo, quedando pendiente su lanzamiento en versión web y para dispositivos móviles, abierto a todo el público.
                 `,
             stacks: ['JavaScript', 'CSS3', 'Snapchat API', 'TypeScript', 'MySQL'],
             image: project1,

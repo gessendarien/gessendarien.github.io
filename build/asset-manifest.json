@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.95fa0a24.css",
-    "main.js": "/static/js/main.791ac110.js",
-    "static/media/1.gif": "/static/media/1.1077d8eb2f8e1bbe1624.gif",
-    "static/media/1.jpg": "/static/media/1.6e09cefc5482e74c0ea2.jpg",
-    "static/media/2.jpg": "/static/media/2.9ddef62018420b08ea1e.jpg",
-    "static/media/cover.jpg": "/static/media/cover.8bb5d94c00ca7995c92f.jpg",
-    "static/media/cover.png": "/static/media/cover.118fcabb5b48facd2df6.png",
+    "main.css": "/static/css/main.2e79baf4.css",
+    "main.js": "/static/js/main.b76b43fb.js",
+    "static/media/1.jpg": "/static/media/1.a40549b9b063dc2d6b74.jpg",
+    "static/media/2.jpg": "/static/media/2.63506c04525a5b5a302a.jpg",
+    "static/media/cover.jpg": "/static/media/cover.fcee996a335e21f7dd73.jpg",
     "static/media/8.jpg": "/static/media/8.b287904e9ed0d3cb3990.jpg",
     "static/media/self.png": "/static/media/self.52f7c8a7a39715615825.png",
-    "static/media/6.jpg": "/static/media/6.f1cd937f7def7d9341fe.jpg",
-    "static/media/7.jpg": "/static/media/7.94c459ad5952ec097725.jpg",
-    "static/media/3.jpg": "/static/media/3.d396fd6c6135655339a0.jpg",
-    "static/media/5.jpg": "/static/media/5.6a83cb9d375a7fd6e13e.jpg",
-    "static/media/4.jpg": "/static/media/4.8b35e50d9cdca3b3bcf3.jpg",
-    "static/media/Gessén-Darién-CV.pdf": "/static/media/Gessén-Darién-CV.252088477d398bdc247c.pdf",
+    "static/media/6.jpg": "/static/media/6.e5808c4e492e9e022faf.jpg",
+    "static/media/7.jpg": "/static/media/7.aa8ecb47f8a4e9662666.jpg",
+    "static/media/3.jpg": "/static/media/3.96e9c8f5f983a9338699.jpg",
+    "static/media/5.jpg": "/static/media/5.0a3593fce722daef841a.jpg",
+    "static/media/4.jpg": "/static/media/4.c4a0281d47a0732e952f.jpg",
+    "static/media/Gessén-Darién-CV.pdf": "/static/media/Gessén-Darién-CV.2756d55b39e9302d0755.pdf",
     "static/media/Charter Regular.otf": "/static/media/Charter Regular.bd7839ef6727789d3480.otf",
     "index.html": "/index.html",
-    "main.95fa0a24.css.map": "/static/css/main.95fa0a24.css.map",
-    "main.791ac110.js.map": "/static/js/main.791ac110.js.map"
+    "main.2e79baf4.css.map": "/static/css/main.2e79baf4.css.map",
+    "main.b76b43fb.js.map": "/static/js/main.b76b43fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.95fa0a24.css",
-    "static/js/main.791ac110.js"
+    "static/css/main.2e79baf4.css",
+    "static/js/main.b76b43fb.js"
   ]
 }
