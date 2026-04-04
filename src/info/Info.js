@@ -3,10 +3,8 @@ import self from "../img/self.png";
 import project1 from "../img/Projects/Project1/cover.jpg";
 import project2 from "../img/Projects/Project2/cover.jpg";
 import project3 from "../img/Projects/Project3/cover.jpg";
-
+import project4 from "../img/Projects/Project4/cover.jpg";
 import project5 from "../img/Projects/Project5/cover.jpg";
-
-
 
 
 import p1_img1 from "../img/Projects/Project1/1.jpg";
@@ -20,9 +18,18 @@ import p1_img8 from "../img/Projects/Project1/8.jpg";
 
 import p2_img1 from "../img/Projects/Project2/1.jpg";
 import p2_img2 from "../img/Projects/Project2/2.jpg";
+import p2_img3 from "../img/Projects/Project2/3.jpg";
+import p2_img4 from "../img/Projects/Project2/4.jpg";
+import p2_img5 from "../img/Projects/Project2/5.jpg";
+import p2_img6 from "../img/Projects/Project2/6.jpg";
 
 import p3_img1 from "../img/Projects/Project3/1.jpg";
 import p3_img2 from "../img/Projects/Project3/2.jpg";
+
+import p4_img1 from "../img/Projects/Project4/1.jpg";
+import p4_img2 from "../img/Projects/Project4/2.jpg";
+import p4_img3 from "../img/Projects/Project4/3.jpg";
+import p4_img4 from "../img/Projects/Project4/4.jpg";
 
 import p5_img1 from "../img/Projects/Project5/1.jpg";
 import p5_img2 from "../img/Projects/Project5/2.jpg";
@@ -36,7 +43,7 @@ export let singlePage = false;
 
 export const info = {
     firstName: "Gessén",
-    position: "Desarrollador Frontend",
+    position: "Desarrollador de Software",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
@@ -144,7 +151,7 @@ export const info = {
         },
         {
             title: "Petra Clipboard for Linux",
-            live: "",
+            live: "https://gessendarien.github.io/petra-clipboard",
             source: "https://github.com/gessendarien/petra-clipboard",
             description:
                 `
@@ -157,7 +164,11 @@ export const info = {
             image: project2,
             gallery: [
                 { type: "image", url: p2_img1 },
-                { type: "image", url: p2_img2 }
+                { type: "image", url: p2_img2 },
+                { type: "image", url: p2_img3 },
+                { type: "image", url: p2_img4 },
+                { type: "image", url: p2_img5 },
+                { type: "image", url: p2_img6 }
             ]
         },
         {
@@ -176,10 +187,10 @@ export const info = {
                 { type: "image", url: p3_img2 }
             ]
         },
-        /*{
+        {
             title: "PDFortuna - Lector de PDF privado para Android",
-            live: "",
-            source: "",
+            live: "https://gessendarien.github.io/pdfortuna-mobile",
+            source: "https://github.com/gessendarien/pdfortuna-mobile",
             description:
                 `
                 Esta app para Android es un lector de PDF, pero con una distinción única que fue la razón por la que se desarrolló: la privacidad.
@@ -192,12 +203,11 @@ export const info = {
             image: project4,
             gallery: [
                 { type: "image", url: p4_img1 },
-                { type: "image", url: p4_img2 }
-
-
-                // { type: "video", url: "https://www.youtube.com/watch?v=yuTMWgOduFM" }
+                { type: "image", url: p4_img2 },
+                { type: "image", url: p4_img3 },
+                { type: "image", url: p4_img4 }
             ]
-        },*/
+        },
         {
             title: "Cascabel Launcher Games",
             live: "",
